@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import Layout from '../components/Layout'
-import { Test, Button } from '@shaunoff/ui'
+import { Test, Button } from '@shaunoff-ui/components'
 
 const IndexPage = () => (
   <Layout title="Home | Next.js + TypeScript Example">
