@@ -2,6 +2,8 @@
   "name": "@shaunoff-ui/docs",
   "version": "1.1.0",
   "scripts": {
+    "build:css": "NODE_ENV=production postcss styles/tailwind.css --output styles/style.css",
+    "watch:css": "postcss -w src/styles/style.tailwind.css --output styles/style.css",
     "dev": "next",
     "build": "next build",
     "start": "next start",

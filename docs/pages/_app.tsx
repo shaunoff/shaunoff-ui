@@ -1,4 +1,4 @@
-import '../styles/tailwind.css'
+import '../styles/style.css'
 import React from 'react'
 import { theme } from '@shaunoff-ui/components'
 import type { AppProps } from 'next/app'
