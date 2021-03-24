@@ -1,7 +1,10 @@
-module.exports = {
+const themeWrapper = require('@shaunoff-ui/components/config')
+
+module.exports = themeWrapper({
   purge: {
-    enabled: true,
-    content: ['./**/*.html', './**/*.ts', './**/*.tsx'],
+    // enabled: true,
+    // content: ['./**/*.html', './**/*.ts', './**/*.tsx', '../docs/**/*.html', '../docs/**/*.ts', '../docs/**/*.tsx'],
+    content: [],
   },
   darkMode: false, // or 'media' or 'class'
   theme: {
@@ -11,4 +14,4 @@ module.exports = {
     extend: {},
   },
   plugins: [],
-}
+})

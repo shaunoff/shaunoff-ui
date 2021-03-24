@@ -3,14 +3,14 @@
   "version": "1.1.0",
   "scripts": {
     "build:css": "NODE_ENV=production postcss styles/tailwind.css --output styles/style.css",
-    "watch:css": "postcss -w src/styles/style.tailwind.css --output styles/style.css",
+    "watch:css": "postcss -w styles/tailwind.css --output styles/style.css",
     "dev": "next",
     "build": "next build",
     "start": "next start",
     "type-check": "tsc"
   },
   "dependencies": {
-    "@shaunoff-ui/components": "^1.1.0",
+    "@shaunoff-ui/components": "^1.1.1",
     "next": "latest",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
