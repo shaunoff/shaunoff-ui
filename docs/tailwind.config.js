@@ -1,6 +1,6 @@
 const themeWrapper = require('@shaunoff-ui/components/config')
 
-module.exports = themeWrapper({
+const testy = themeWrapper({
   purge: {
     content: [
       './pages/**/*.tsx',
@@ -19,3 +19,6 @@ module.exports = themeWrapper({
   },
   plugins: [],
 })
+
+console.log(testy)
+module.exports = testy
