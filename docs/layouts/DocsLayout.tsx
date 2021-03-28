@@ -1,7 +1,7 @@
-import React, { ReactNode } from 'react'
+import React from 'react'
 import { getLayout as getSiteLayout } from './SiteLayout'
 import Link from '../components/Link'
-import { Test, Button, NavMenu, NavMenuItem } from '@shaunoff-ui/components'
+import { NavMenu, NavMenuItem } from '@shaunoff-ui/components'
 // type DocsLayoutProps = {
 //   children?: ReactNode
 // }
