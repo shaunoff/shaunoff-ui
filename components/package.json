@@ -1,7 +1,7 @@
 {
-  "name": "@shaunoff/ui",
+  "name": "@shaunoff-ui/components",
   "description": "",
-  "version": "1.1.0",
+  "version": "1.1.4",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "publishConfig": {
@@ -9,10 +9,10 @@
   },
   "scripts": {
     "build:css": "NODE_ENV=production postcss style/tailwind.css --output style/style.css",
-    "watch:css": "postcss -w src/style/style.tailwind.css --output src/style/style.css",
+    "watch:css": "postcss -w style/tailwind.css --output style/style.css",
     "prebuild": "rimraf dist && yarn build:css",
     "build": "webpack --mode production",
-    "dev": "webpack --watch --mode development"
+    "dev": "concurrently 'yarn watch:css' 'webpack --watch --mode development'"
   },
   "author": "Shaun Hutch",
   "license": "ISC",
@@ -39,6 +39,7 @@
   },
   "dependencies": {
     "clsx": "^1.1.1",
+    "deepmerge": "^4.2.2",
     "tailwind-override": "^0.0.7"
   }
 }

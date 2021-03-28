@@ -1,7 +1,4 @@
 {
   "files": [],
-  "references": [
-    { "path": "ui" },
-    { "path": "docs" },
-  ]
+  "references": [{ "path": "components" }, { "path": "docs" }]
 }

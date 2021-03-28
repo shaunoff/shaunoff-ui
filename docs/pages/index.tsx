@@ -1,19 +1,13 @@
 import React from 'react'
-import Link from 'next/link'
-import Layout from '../components/Layout'
-import { Test, Button } from '@shaunoff-ui/components'
+import { getLayout } from '../layouts/SiteLayout'
 
 const IndexPage = () => (
-  <Layout title="Home | Next.js + TypeScript Example">
-    <h1>Hello Next.js 👋</h1>
-    <Test testProp="ghjgh" />
-    <Button>Hello</Button>
-    <p>
-      <Link href="/about">
-        <a>About</a>
-      </Link>
-    </p>
-  </Layout>
+  <>
+    <h1>Home</h1>
+    <p>This is the Home</p>
+  </>
 )
+
+IndexPage.getLayout = getLayout('jdhjkfhkjhfj')
 
 export default IndexPage

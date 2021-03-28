@@ -186,7 +186,7 @@ const defaultTheme = {
     nav: 'flex-1 px-2 bg-white space-y-1',
   },
   navMenuItem: {
-    base: 'group w-full flex items-center pl-2 pr-2 py-2 text-sm font-medium rounded-md',
+    base: 'group w-full flex items-center pl-2 pr-2 py-2 text-sm font-medium rounded-md cursor-pointer',
     active: 'bg-gray-100 text-gray-900',
     default: 'bg-white text-gray-600 hover:bg-gray-50 hover:text-gray-900',
     icon: {

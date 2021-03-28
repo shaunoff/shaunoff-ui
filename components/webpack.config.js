@@ -7,7 +7,7 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
     publicPath: '/dist/',
     filename: 'index.js',
-    library: '@sprightly/ui',
+    library: '@shaunoff-ui/components',
     libraryTarget: 'umd',
   },
   externals: {
